@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Môn học: Ứng dụng Web</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Trần Trí Thành - 2551010207</h2>
+    <div style="text-align: center;">
+        <div style="display: inline-block">
+           <h3>HTML</h3>
+           <img src="./images/Không được xác nhận 347771.crdownload" width="120" height="180" />
+        </div>
+        <div style="display: inline-block">
+           <h3>CSS</h3>
+           <img src="./images/css.jpg" width="120" height="180" />
+        </div>
+        <div style="display: inline-block">
+           <h3>JavaScript</h3>
+           <img src="./images/javascript.jpg" width="120" height="180" />
+        </div>
+        <div style="display: inline-block">
+           <h3>jQuery</h3>
+           <img src="./images/jquery.jpg" width="120" height="180" />
+        </div>
+    </div>
+</body>
+</html>

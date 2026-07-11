@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ứng dụng web</title>
+    <title>Trang HTML</title>
+    <style>
+        .container {
+            width: 250px; 
+            margin: 20px;
+            border: 2px solid #ccc;
+            font-family: "Times New Roman", Times, serif;
+        }
+        
+        .header {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .content ol {
+            margin: 0;
+            padding-left: 25px; 
+        }
+        .content li {
+            margin-bottom: 3px;
+        }
+        
+        .footer {
+            padding: 10px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: purple;
+        }
+    </style>
 </head>
 <body>
-    <h1>HTML - Hyper Text Markup Language</h1>
-    <a href="index.html"> Về trang chủ</a>
+
+    <div class="container">
+        <div class="header">
+            <h2>HTML</h2>
+        </div>
+
+        <div class="content">
+            <ol>
+                <li><a href="bt01.html">Bài số 1</a></li>
+                <li><a href="bt02.html">Bài số 2</a></li>
+                <li><a href="bt03.html">Bài số 3</a></li>
+                <li><a href="bt04.html">Bài số 4</a></li>
+                <li><a href="bt05.html">Bài số 5</a></li>
+                <li><a href="bt06.html">Bài số 6</a></li>
+                <li><a href="bt07.html">Bài số 7</a></li>
+                <li><a href="bt08.html">Bài số 8</a></li>
+                <li><a href="bt09.html">Bài số 9</a></li>
+            </ol>
+        </div>
+
+        <div class="footer">
+            <a href="index.html">Về trang chủ</a>
+        </div>
+    </div>
+
 </body>
 </html>

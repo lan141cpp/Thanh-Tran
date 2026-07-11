@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt04.html</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 20px;
+        }
+        h2.title {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #888; 
+        }
+       
+        thead th {
+            background-color: #e0e0e0; 
+        }
+        
+       
+        @media print {
+            thead {
+                display: table-header-group; 
+            }
+            tfoot {
+                display: table-footer-group; 
+            }
+        }
+        
+        .align-left {
+            text-align: left;
+            padding-left: 10px;
+        }
+        .dat {
+            background-color: yellow !important;
+            color: black;
+            font-weight: bold;
+        }
+        .khong-dat {
+            background-color: red !important;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 class="title">KẾT QUẢ HỌC TẬP</h2>
+
+    <table border="1" rules="all">
+        <thead>
+            <tr>
+                <th rowspan="2">Họ tên</th>
+                <th colspan="3">Môn học</th>
+                <th rowspan="2">Kết quả</th>
+            </tr>
+            <tr>
+                <th>Toán</th>
+                <th>Văn</th>
+                <th>Ngoại ngữ</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                <td colspan="4" class="align-left">Tổng số học sinh đạt</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+
+        
+        <tbody>
+            <tr>
+                <td class="align-left">Trần Văn Thành</td>
+                <td>8</td>
+                <td>5</td>
+                <td>7</td>
+                <td class="dat">Đạt</td>
+            </tr>
+            <tr>
+                <td class="align-left">Lê Thanh Sơn</td>
+                <td>4</td>
+                <td>9</td>
+                <td>6</td>
+                <td class="khong-dat">Không đạt</td>
+            </tr>
+            <tr>
+                <td class="align-left">Nguyễn Thị Tuyết</td>
+                <td>8</td>
+                <td>9</td>
+                <td>5</td>
+                <td class="dat">Đạt</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
